@@ -10,12 +10,12 @@
 #-------------------------------------------------------------------------------
 
 def main():
- num = float(input("Enter a number: "))
+ num = int(input("Enter a number: "))
  if num > 0:
-   print("Positive number")
+   print("Entered number is Positive number")
  elif num == 0:
-   print("Zero")
+   print("Entered number is Zero")
  else:
-   print("Negative number")
+   print("Entered number is Negative number")
 if __name__ == '__main__':
     main()
